@@ -1,0 +1,1 @@
+<input type="text" name="ogr[long_title]" class="regular-text" value="<?php echo esc_attr( $data['long_title'] ); ?>" />

@@ -1,0 +1,122 @@
+input#mmr_price {
+    text-align: right;
+    padding: 0;
+    border: none;
+    color: #dc8000;
+    font-size: 50px;
+	width:20%;
+	background: none;
+}
+div#price_dota {
+    text-align: center;
+}
+div#price_dota span {
+    color: #dc8000;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+}
+.ui-slider-pips:not(.ui-slider-disabled) .ui-slider-pip:hover .ui-slider-label {
+    color: #f7f7f7 !important;
+    font-weight: bold !important;;
+}
+.ui-slider-pip.ui-slider-pip-label .ui-slider-label {
+    cursor: auto;
+}
+.medals_icons_container img {
+    width: 100%;
+    max-width: 140px;
+    max-height: 140px;
+    height: auto;
+}
+.button_switch {
+    background-color: #dc8000;
+    border-color: #dc8000;
+    border: 1px solid #dc8000;
+    background: #dc8000;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 2px;
+    font-size: 14px;
+    width: 100%;
+}
+.button_switch.on {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+
+/* calculator CSS*/
+
+.form-inner-main {
+    background-image: url(https://www.backgroundcheckall.com/wp-content/uploads/2017/12/background-azul-escuro-10.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    padding: 10px 30px;
+}
+
+.medal_icon{
+	display:none;
+} 
+.form-group.icons_container {
+    margin-top: 89px;
+}
+#my_desired_mmr {
+    margin-left: 25em;
+}
+.double_sided.images {
+    width: 100%;
+    display: block;
+}
+.custom_calculator.wcg-slider-content {
+    width: 70%;
+    margin: 0 auto;
+}
+div#hide_slider_row {
+    background: transparent;
+    height: 0px;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.wcg_input_row.rush_order {
+    margin-top: 48px;
+}
+.items_group.clearfix.price_buy {
+    margin-top: 34px;
+}
+.add_to_cart_btn button.single_add_to_cart_button.button.alt {
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-color: #dc8000;
+    border-color: #dc8000;
+    width: 183px;
+    border-radius: 4px;
+}
+/* Below Slider Ranges */
+
+.ui-slider-pips .ui-slider-pip {
+    width: 2em;
+    height: 1em;
+    line-height: 1em;
+    position: absolute;
+    font-size: 0.8em;
+    color: #999;
+    overflow: visible;
+    text-align: center;
+    top: 20px;
+    left: 20px;
+    margin-left: -1em;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.ui-slider-pips .ui-slider-pip-inrange {
+    color: black;
+}
+.ui-widget.ui-widget-content {
+    border: none !important;
+}
